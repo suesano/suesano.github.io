@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="./styles.css">
+        <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+        <script src=""></script>
+		<title>Suesano</title>
+
+	</head>
+    <body>
+      <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-emoji-heart-eyes" viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+              <path d="M11.315 10.014a.5.5 0 0 1 .548.736A4.498 4.498 0 0 1 7.965 13a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242.63 0 1.46-.118 2.152-.242a26.58 26.58 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434zm6.488 0c1.398-.864 3.544 1.838-.952 3.434-3.067-3.554.19-4.858.952-3.434z"/>
+            </svg>
+            <span class="ml-3 text-5xl uppercase">Suesano</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a href="./index.html" class="text-3xl mr-5 hover:text-gray-900">Domicile</a>
+            <a href="./privacy.html" class="text-3xl mr-5 hover:text-gray-900">Politique de confidentialité</a>
+            <a href="./contact.html" class="text-3xl mr-5 hover:text-gray-900">Contactez-nous</a>
+          </nav>
+        </div>
+      </header>
+      <div class="w-full h-96 relative flex items-center">
+        <img src="./images/top-bg.jpg" class="absolute top-0 left-0 w-full h-full object-cover bg-green-500" />
+
+        <div class="relative z-10 px-24 text-center bg-green-700 p-10">
+            <h2 class="mb-2 text-white uppercase text-2xl md:text-5xl leading-tight tracking-wide font-normal">Blog sur les rencontres <br> et les connaissances</h2>
+            <a href="./index.html" class="inline-block uppercase bg-white py-3 px-6 text-xs mt-5">Apprendre encore plus</a>
+        </div>
+    </div>
+  
+      <form class="p-10 container mx-auto">
+      <div class="flex flex-wrap -mx-3 mb-6">
+        <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+          <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">Prénom</label>
+          <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-green-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="first_name" type="text" placeholder="Jummy">
+          <p class="text-green-500 text-xs italic">S'il vous plaît remplir ce champ.</p>
+        </div>
+        <div class="w-full md:w-1/2 px-3">
+          <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">Nom de famille</label>
+          <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="last_name" type="text" placeholder="Jocked">
+        </div>
+      </div>
+      <div class="flex flex-wrap -mx-3 mb-6">
+        <div class="w-full px-3">
+          <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">Adresse e-mail</label>
+          <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email" placeholder="********@*****.**">
+        </div>
+      </div>
+        
+        <div class="flex flex-wrap -mx-3 mb-6">
+        <div class="w-full px-3">
+          <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">Votre message</label>
+          <textarea rows="10" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+            
+          </textarea>
+        </div>
+        <div class="flex justify-between w-full px-3">
+          <div class="md:flex md:items-center">
+            <label class="block text-gray-500 font-bold">
+              <input class="mr-2 leading-tight" type="checkbox">
+              <span class="text-sm">Envoyez-moi votre newsletter!</span>
+            </label>
+          </div>
+          <button class="transition duration-500 shadow bg-green-600 hover:bg-green-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded" type="submit">Envoyer le message</button>
+        </div>
+          
+      </div>
+        
+    </form>
+      
+    </div>
+    <footer>
+        <div class="w-full bg-green-700 mt-52">
+          <div class="flex flex-wrap text-center text-white">
+            <!-- ABOUT COLUMN -->
+        
+            <div class="w-full md:w-1/3 p-5 border-r border-green-800 md:text-left">
+              <div class="my-6 ml-3 text-xl font-semibold">À PROPOS DE NOUS</div>
+              <p class="p-3 text-gray-400">Un petit blog sur les rencontres et les loisirs.
+                Vous trouverez ici une abondance de sujets qui vous aideront à trouver votre âme sœur.</p>
+            </div>
+        
+            <!-- CONTACTS COLUMN -->
+        
+            <div class="w-full md:w-1/3 p-5 border-r border-green-800">
+              <div class="my-6 text-xl font-semibold flex flex-col">NOUS CONTACTER</div>
+              <p class="transition duration-500 font-bold text-lg mt-10 hover:text-blue-500"><a href="https://twitter.com">Twitter</a></p>
+              <p class="transition duration-500 font-bold text-lg mt-5 hover:text-pink-500"><a href="https://instagram.com">Instagram</a></p>
+              <p class="transition duration-500 font-bold text-lg mt-5 hover:text-blue-700"><a href="https://facebook.com">Facebook</a></p>
+              <p class="transition duration-500 font-bold text-lg mt-5 hover:text-blue-900"><a href="https://linkedin.com">Linkedin</a></p>
+            </div>
+        
+            <!-- FORM COLUMN -->
+        
+            <div class="w-full md:w-1/3 p-5">
+              <div class="mt-6 text-xl font-semibold">Écrivez-nous</div>
+              <form class="w-4/5 mx-auto mt-2 px-6 pt-6 pb-4 rounded">
+                <div class="flex items-center mb-4">
+                  <input
+                    class="w-full h-10 p-2 border-b border-green-800 bg-green-900 text-white"
+                    type="text"
+                    placeholder="Nom d'utilisateur"
+                  />
+                </div>
+                <div class="flex items-center mb-4">
+                  <input
+                    class="w-full h-10 p-2 border-b border-green-800 bg-green-900 text-white"
+                    type="text"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="mb-6">
+                  <textarea
+                    class="w-full h-24 px-2 pt-2 border-b-2 border-green-800 bg-green-900 text-white"
+                    placeholder="Un message"
+                  ></textarea>
+                </div>
+                <div class="flex justify-between items-center">
+                  <button
+                    class="w-full py-2 px-4 rounded bg-green-500 hover:bg-green-700 text-white font-bold"
+                    type="button"
+                  >
+                    ENVOYER
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+        </body>
+        </html>
